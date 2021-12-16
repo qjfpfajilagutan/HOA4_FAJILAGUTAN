@@ -1,0 +1,9 @@
+---
+- name: Install monitoring tools
+  hosts: all
+  tasks:
+    - name: Install elasticsearch
+      include_role:
+        name: ELK
+
+   
